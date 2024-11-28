@@ -1,0 +1,50 @@
+/* NavBar.css */
+
+.navbar {
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+}
+
+.navbar-brand {
+  font-family: 'arial', cursive;
+  color: rgb(216, 86, 255) !important;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(33, 31, 31) !important;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+background-color: black;
+border-radius: 10%;
+color: white!important;
+transition: color 0.3s ease,transform 0.3s ease;
+}
+
+.get-started-btn, .profile-btn, .logout-btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.get-started-btn:hover, .profile-btn:hover, .logout-btn:hover {
+  background-color: rgb(50, 213, 228);
+  transform: scale(1.05);
+}
+
+.get-started-btn {
+  border: none;
+  color: white;
+  background: linear-gradient(90deg, rgb(28, 223, 230) 0%, rgba(0,212,255,1) 100%);
+}
+
+.profile-btn {
+  color: white;
+  background: linear-gradient(90deg, rgba(29,78,216,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.logout-btn {
+  color: white;
+  background: linear-gradient(90deg, rgba(220,20,60,1) 0%, rgba(255,69,0,1) 100%);
+}

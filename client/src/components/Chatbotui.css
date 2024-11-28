@@ -1,0 +1,177 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  width: 100vw;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.paradata{
+  margin: 0px;
+  word-wrap: break-word;
+}
+
+.messages-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 0px;
+  margin-bottom: 0px;
+  padding-left: 200px;
+  padding-right:200px;
+  margin-top:10px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin-bottom: 10px;
+  max-width: 60%;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color:#656fe1;
+  color: white;
+  border-radius: 15px 15px 0 15px;
+  padding: 10px;
+}
+
+.message.ai {
+  align-self: flex-start;
+  background-color: #e2e3e5;
+  border-radius: 15px 15px 15px 0;
+  padding: 10px;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.sender {
+  font-size: 0.8em;
+  color:rgb(16, 15, 15);
+}
+
+.input-box {
+  display: flex;
+  padding-left: 200px;
+  padding-right:200px;
+  border-top: 1px solid #ffffff;
+  background-color: #ffffff; 
+  margin-bottom:20px;
+  padding-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.message-input {
+  flex-grow: 1;
+  height: 55px; 
+  padding: 13px;
+  padding-left:10px;
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+  resize: none; 
+  margin-right: 0px;
+}
+
+.message-input:focus {
+  border-color: #8f9497;
+  box-shadow: 0 0 5px rgba(120, 124, 129, 0.5);
+  outline: none;
+}
+
+.message-input::placeholder {
+  color: #808991;
+  font-style: italic;
+}
+
+.send-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #7118df;
+  color: white;
+  border: none;
+  padding: 12px 20px; 
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.send-button:focus {
+  outline: none; 
+}
+
+.action-button {
+  background-color: #338991; /* Green */
+  background:linear-gradient(90deg, rgb(28, 223, 230) 0%, rgba(0,212,255,1) 100%);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button i {
+  margin-right: 8px;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+.send-button {
+  /* background-color: #008CBA;  */
+  background:linear-gradient(90deg, rgb(28, 223, 230) 0%, rgba(0, 212, 255, 1) 100%);
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensure the icon is treated as a block-level element */
+  transform: rotate(270deg);
+  /* position: relative; or absolute, depending on your layout */
+  border-radius: 50%; /* Makes the button circular */
+  top: 5px;
+}
+
+.send-button:hover {
+  background-color: #007BB5;
+}

@@ -1,0 +1,150 @@
+.home-page {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.hpic{
+  width: 30%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 60px; /* Adjust this value according to the height of your navbar */
+  padding-right: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+
+}
+.header {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+  background-color: #ffffff;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.cta-button {
+  background: linear-gradient(90deg, rgb(28, 223, 230) 0%, rgba(0,212,255,1) 100%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+  border: none;
+  color: white;
+  background: linear-gradient(90deg, rgb(28, 223, 230) 0%, rgba(0,212,255,1) 100%);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+.intro {
+  padding: 50px;
+  background-color: #ede7ca;
+}
+
+.more-info {
+  padding: 50px;
+  background-color: #d4d4d4;
+}
+
+.more-info-text {
+  font-size: 20px;
+}
+
+.more {
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.india-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.india-card {
+  background-color: white;
+  border: 1px solid #0c0c0c;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 250px;
+  text-align: center;
+}
+
+.india-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.india-image {
+  width: 250px;
+  height: 250px;
+}
+
+.india-name {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.india-name {
+  color: #222; /* Change this to your desired color */
+}
+
+.constitution-section {
+  display: flex;
+  /* align-items: center; */
+  margin-left: 300px;
+  /* margin-right: 0; */
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.constitution-image {
+  max-width: 250px;
+  margin-right: 50px;
+}
+
+.constitution-text {
+  max-width: 600px;
+  color: #000000;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.references-section {
+  padding: 20px;
+  background-color: #0d0d0d;
+  margin-top: 20px;
+  color:#d4d4d4
+}
+
+.references-section a {
+  color: rgb(248, 243, 243);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.references-section a:hover {
+  text-decoration: underline;
+}

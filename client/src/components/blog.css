@@ -1,0 +1,17 @@
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align the content */
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .page-content {
+    text-align: left; /* Align paragraphs to the left */
+    line-height: 2;
+  }
+  
