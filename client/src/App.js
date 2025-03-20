@@ -58,8 +58,6 @@ function App() {
                 <Route path ='/license' element={<Licence/>}/>
             </>
             </Routes>
-            {/* <DownloadButton name={example}/> */}
-            {/* <PDFReader /> */}
         </div>
     );
 }
